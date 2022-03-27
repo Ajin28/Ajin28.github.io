@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Ameesha</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Ameesha</span><br />
+            Web Designer
+          </h1>
+
+          <a download="" href="./Ameesha Jain.pdf" class="button">Resume</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/ameesha-jain-5702481b6/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+
+          <a
+            href="https://github.com/Ajin28"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <img class="img" src="./assets/img/home.gif" alt="" />
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section home" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/Ameesha.jpeg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Ameesha</h2>
+            <p class="about__text">
+              A beginner web developer with a passion for design. I have hands
+              on experience in MERN stack. I love to code, design, and develop.
+              <br />
+              I recently finished Google UX Design Professional Certificate so
+              that I can build user-centric and captivating web, desktop and
+              mobile experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section home" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-html5 skills__icon"></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+            <div>
+              <span class="skills__percentage">80%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-css3 skills__icon"></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+            <div>
+              <span class="skills__percentage">80%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-javascript skills__icon"></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
+            <div>
+              <span class="skills__percentage">65%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxs-paint skills__icon"></i>
+              <span class="skills__name">UX/UI</span>
+            </div>
+            <div class="skills__bar skills__ux"></div>
+            <div>
+              <span class="skills__percentage">85%</span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxs-paint skills__icon"></i>
+              <span class="skills__name">React</span>
+            </div>
+            <div class="skills__bar skills__react"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxs-paint skills__icon"></i>
+              <span class="skills__name">Git</span>
+            </div>
+            <div class="skills__bar skills__git"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section home" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <a href="" class="work__img">
+            <img src="./assets/img/grandma.png" alt="" />
+          </a>
+          <div class="work">
+            <div class="title">Grandma's Kitchen</div>
+            <p class="subtitle">
+              An app design for a Restaurant (Grandma’s Kitchen) to attract and
+              retain customers online as well as for on-site restaurant.
+            </p>
+            <div class="item">
+              <a
+                href="https://www.icloud.com/keynote/041OE2XQsLETOAQBSPzOiGz2g#Grandma's_Kitchen_Case_Study"
+                target="_blank"
+                class="button"
+                >View</a
+              >
+            </div>
+          </div>
+          <a href="" class="work__img">
+            <img src="./assets/img/almost home.png" alt="" />
+          </a>
+          <div class="work">
+            <div class="title">Almost Home</div>
+            <p class="subtitle">
+              A pet adoption app design aiming to build and connect the
+              community of foster parents and potential adopters by providing a
+              platform as good as it's paid counterparts.
+            </p>
+            <div class="item">
+              <a
+                href="https://www.icloud.com/keynote/0cdm-ZwUhGoJ_PIZXuV_GwzqA#Almost_Home_case_study"
+                target="_blank"
+                class="button"
+                >View</a
+              >
+            </div>
+          </div>
+
+          <a href="" class="work__img">
+            <img src="assets/img/rabbit.png" alt="" />
+          </a>
+          <div class="work">
+            <div class="title">The Rabbit Hole</div>
+            <p class="subtitle">
+              A website design that allows users to shop for gender-neutral
+              clothing online and with customisable prints.
+            </p>
+            <div class="item">
+              <a
+                href="https://www.icloud.com/keynote/054EDMoDBcCtWyH7YPMI8jJRQ#The_rabbit_hole_case_study"
+                target="_blank"
+                class="button"
+                >View</a
+              >
+            </div>
+          </div>
+
+          <a href="" class="work__img">
+            <img src="assets/img/yelpcamp.png" alt="" />
+          </a>
+          <div class="work">
+            <div class="title">Yelpcamp</div>
+            <p class="subtitle">
+              A website developed for creating and reviewing campsites built
+              with express and mondoDB as backend and Bootstrap UI as CSS
+              framework.
+            </p>
+            <div class="item">
+              <a
+                href=" https://yelp-camp-ajin.herokuapp.com/"
+                target="_blank"
+                class="button"
+                >View</a
+              >
+            </div>
+          </div>
+
+          <a href="" class="work__img">
+            <img src="assets/img/blog site.png" alt="" />
+          </a>
+          <div class="work">
+            <div class="title">Blog-Site</div>
+            <p class="subtitle">
+              A website developed for creating blog posts built with express and
+              mondoDB as backend and Semantic UI as CSS framework.
+            </p>
+            <div class="item">
+              <a
+                href="https://blog-site-2028.herokuapp.com/blogs"
+                target="_blank"
+                class="button"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+
+      <section class="contact section home" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <img class="img__contact" src="./assets/img/cat.gif" alt="" />
+
+          <form
+            id="form"
+            data-email="amisha28jain@gmail.com"
+            class="gform contact__form"
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              class="contact__input"
+              required
+            />
+            <input
+              type="mail"
+              id="email"
+              name="email"
+              placeholder="Email"
+              class="contact__input"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="0"
+              rows="6"
+              class="contact__input"
+              required
+            ></textarea>
+            <input
+              id="submit"
+              type="submit"
+              value="Send"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Ameesha</p>
+      <div class="footer__social">
+        <a
+          href="https://www.linkedin.com/in/ameesha-jain-5702481b6/"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+
+        <a href="https://github.com/Ajin28" target="_blank" class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
